@@ -47,6 +47,9 @@ BuildRequires:  flex
 BuildRequires:  llvm-devel
 BuildRequires:  gettext
 
+Conflicts:      mesa-llvmpipe
+Provides:       mesa-llvmpipe
+
 %description
 Mesa is an open-source implementation of the OpenGL specification  -
 a system for rendering interactive 3D graphics.
